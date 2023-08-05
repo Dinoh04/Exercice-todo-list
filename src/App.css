@@ -1,0 +1,90 @@
+body{
+  background: #02052c;
+}
+
+label{
+  color: #fff;
+  font-weight: 500;
+  font-size: 2rem;
+  text-decoration: none;
+}
+
+form{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.form-row{
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+}
+
+input{
+  border: 1px solid #184bf3;
+  font-size: 20px;
+  width: 25rem;
+  background: #109aeb;
+  border-radius: 5px 5px;
+  text-decoration: none;
+}
+
+.btn{
+  border: 1px solid #184bf3;
+  font-size: 20px;
+  width: 11rem;
+  border-radius: 5px 5px;
+  background:transparent;
+  color: #184bf3;
+  transition: .2s;
+}
+.list{
+  margin-left: 5rem;
+}
+
+
+.header{
+  display: flex;
+  justify-content: center;
+  margin-left: -17rem;
+  color: #fff;
+}
+.btn-2{
+  border: 1px solid red;
+  border-radius: 4px 4px;
+  font-size: 20px;
+  margin-left: 1rem;
+  background: transparent;
+  color: red;
+  cursor: pointer;
+}
+
+.container{
+  display: flex;
+  justify-content: center;
+  margin-left: -4rem;
+}
+.check{
+margin-left: -18rem;
+}
+.check_2{
+margin-left: -20rem;
+}
+li{
+ display: flex;
+ justify-content: center;
+ flex-direction: row;
+}
+
+
+.item-name{
+  text-decoration: none;
+}
+.container_2{
+  display: flex;
+  justify-content: center;
+  margin-left: -4rem;
+  margin-top: 1rem;
+}
